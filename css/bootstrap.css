@@ -1,20 +1,10 @@
-/*!
- * Bootstrap v2.3.0
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
-
 .clearfix {
  *zoom: 1;
 }
 .clearfix:before, .clearfix:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .clearfix:after {
 	clear: both;
@@ -125,13 +115,13 @@ a,  a:visited {
 	text-decoration: underline;
 }
 a[href]:after {
-	content: " (" attr(href) ")";
+	content: &quot; (&quot; attr(href) &quot;)&quot;;
 }
 abbr[title]:after {
-	content: " (" attr(title) ")";
+	content: &quot; (&quot; attr(title) &quot;)&quot;;
 }
- .ir a:after,  a[href^="javascript:"]:after,  a[href^="#"]:after {
- content: "";
+ .ir a:after,  a[href^=&quot;javascript:&quot;]:after,  a[href^=&quot;#&quot;]:after {
+ content: &quot;&quot;;
 }
 pre,  blockquote {
 	border: 1px solid #999;
@@ -159,7 +149,7 @@ h2,  h3 {
 }
 body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #333333;
@@ -199,12 +189,12 @@ a:hover, a:focus {
 .row:before, .row:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .row:after {
 	clear: both;
 }
- [class*="span"] {
+ [class*=&quot;span&quot;] {
  float: left;
  min-height: 1px;
  margin-left: 20px;
@@ -291,12 +281,12 @@ a:hover, a:focus {
 .row-fluid:before, .row-fluid:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .row-fluid:after {
 	clear: both;
 }
- .row-fluid [class*="span"] {
+ .row-fluid [class*=&quot;span&quot;] {
  display: block;
  float: left;
  width: 100%;
@@ -307,10 +297,10 @@ a:hover, a:focus {
  -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
- .row-fluid [class*="span"]:first-child {
+ .row-fluid [class*=&quot;span&quot;]:first-child {
  margin-left: 0;
 }
- .row-fluid .controls-row [class*="span"] + [class*="span"] {
+ .row-fluid .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 2.127659574468085%;
 }
 .row-fluid .span12 {
@@ -457,10 +447,10 @@ a:hover, a:focus {
 	margin-left: 8.51063829787234%;
  *margin-left: 8.404255319148938%;
 }
- [class*="span"].hide, .row-fluid [class*="span"].hide {
+ [class*=&quot;span&quot;].hide, .row-fluid [class*=&quot;span&quot;].hide {
  display: none;
 }
- [class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
+ [class*=&quot;span&quot;].pull-right, .row-fluid [class*=&quot;span&quot;].pull-right {
  float: right;
 }
 .container {
@@ -471,7 +461,7 @@ a:hover, a:focus {
 .container:before, .container:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .container:after {
 	clear: both;
@@ -484,13 +474,10 @@ a:hover, a:focus {
 .container-fluid:before, .container-fluid:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .container-fluid:after {
 	clear: both;
-}
-p {
-	margin: 0 0 10px;
 }
 .lead {
 	margin-bottom: 20px;
@@ -549,14 +536,14 @@ a.text-success:hover, a.text-success:focus {
 .text-center {
 	text-align: center;
 }
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
 	margin: 10px 0;
 	font-family: inherit;
 	font-weight: bold;
 	line-height: 20px;
 	color: inherit;
 	text-rendering: optimizelegibility;
-}
+}*/
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-weight: normal;
 	line-height: 1;
@@ -618,7 +605,7 @@ ul.inline, ol.inline {
 	margin-left: 0;
 	list-style: none;
 }
-ul.inline > li, ol.inline > li {
+ul.inline &gt; li, ol.inline &gt; li {
 	display: inline-block;
  *display: inline;
 	padding-right: 5px;
@@ -643,7 +630,7 @@ dd {
 .dl-horizontal:before, .dl-horizontal:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .dl-horizontal:after {
 	clear: both;
@@ -691,7 +678,7 @@ blockquote small {
 	color: #999999;
 }
 blockquote small:before {
-	content: '\2014 \00A0';
+	content: &#39;\2014 \00A0&#39;;
 }
 blockquote.pull-right {
 	float: right;
@@ -704,13 +691,13 @@ blockquote.pull-right p, blockquote.pull-right small {
 	text-align: right;
 }
 blockquote.pull-right small:before {
-	content: '';
+	content: &#39;&#39;;
 }
 blockquote.pull-right small:after {
-	content: '\00A0 \2014';
+	content: &#39;\00A0 \2014&#39;;
 }
 q:before, q:after, blockquote:before, blockquote:after {
-	content: "";
+	content: &quot;&quot;;
 }
 address {
 	display: block;
@@ -720,7 +707,7 @@ address {
 }
 code, pre {
 	padding: 0 3px 2px;
-	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace;
 	font-size: 12px;
 	color: #333333;
 	-webkit-border-radius: 3px;
@@ -795,7 +782,7 @@ label, input, button, select, textarea {
 	line-height: 20px;
 }
 input, button, select, textarea {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
 }
 label {
 	display: block;
@@ -906,7 +893,7 @@ select:focus, input[type=file]:focus, input[type=radio]:focus, input[type=checkb
 	float: left;
 	margin-left: -20px;
 }
-.controls > .radio:first-child, .controls > .checkbox:first-child {
+.controls &gt; .radio:first-child, .controls &gt; .checkbox:first-child {
 	padding-top: 5px;
 }
 .radio.inline, .checkbox.inline {
@@ -936,17 +923,17 @@ select:focus, input[type=file]:focus, input[type=radio]:focus, input[type=checkb
 .input-xxlarge {
 	width: 530px;
 }
- input[class*="span"], select[class*="span"], textarea[class*="span"], .uneditable-input[class*="span"], .row-fluid input[class*="span"], .row-fluid select[class*="span"], .row-fluid textarea[class*="span"], .row-fluid .uneditable-input[class*="span"] {
+ input[class*=&quot;span&quot;], select[class*=&quot;span&quot;], textarea[class*=&quot;span&quot;], .uneditable-input[class*=&quot;span&quot;], .row-fluid input[class*=&quot;span&quot;], .row-fluid select[class*=&quot;span&quot;], .row-fluid textarea[class*=&quot;span&quot;], .row-fluid .uneditable-input[class*=&quot;span&quot;] {
  float: none;
  margin-left: 0;
 }
- .input-append input[class*="span"], .input-append .uneditable-input[class*="span"], .input-prepend input[class*="span"], .input-prepend .uneditable-input[class*="span"], .row-fluid input[class*="span"], .row-fluid select[class*="span"], .row-fluid textarea[class*="span"], .row-fluid .uneditable-input[class*="span"], .row-fluid .input-prepend [class*="span"], .row-fluid .input-append [class*="span"] {
+ .input-append input[class*=&quot;span&quot;], .input-append .uneditable-input[class*=&quot;span&quot;], .input-prepend input[class*=&quot;span&quot;], .input-prepend .uneditable-input[class*=&quot;span&quot;], .row-fluid input[class*=&quot;span&quot;], .row-fluid select[class*=&quot;span&quot;], .row-fluid textarea[class*=&quot;span&quot;], .row-fluid .uneditable-input[class*=&quot;span&quot;], .row-fluid .input-prepend [class*=&quot;span&quot;], .row-fluid .input-append [class*=&quot;span&quot;] {
  display: inline-block;
 }
 input, textarea, .uneditable-input {
 	margin-left: 0;
 }
- .controls-row [class*="span"] + [class*="span"] {
+ .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 20px;
 }
 input.span12, textarea.span12, .uneditable-input.span12 {
@@ -991,15 +978,15 @@ input.span1, textarea.span1, .uneditable-input.span1 {
 .controls-row:before, .controls-row:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .controls-row:after {
 	clear: both;
 }
- .controls-row [class*="span"], .row-fluid .controls-row [class*="span"] {
+ .controls-row [class*=&quot;span&quot;], .row-fluid .controls-row [class*=&quot;span&quot;] {
  float: left;
 }
- .controls-row .checkbox[class*="span"], .controls-row .radio[class*="span"] {
+ .controls-row .checkbox[class*=&quot;span&quot;], .controls-row .radio[class*=&quot;span&quot;] {
  padding-top: 5px;
 }
 input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
@@ -1122,7 +1109,7 @@ input[type=radio][disabled], input[type=checkbox][disabled], input[type=radio][r
 .form-actions:before, .form-actions:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .form-actions:after {
 	clear: both;
@@ -1177,7 +1164,7 @@ input[type=radio][disabled], input[type=checkbox][disabled], input[type=radio][r
 	background-color: #eeeeee;
 	border: 1px solid #ccc;
 }
-.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn, .input-append .btn-group > .dropdown-toggle, .input-prepend .btn-group > .dropdown-toggle {
+.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn, .input-append .btn-group &gt; .dropdown-toggle, .input-prepend .btn-group &gt; .dropdown-toggle {
 	vertical-align: top;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -1208,7 +1195,7 @@ input[type=radio][disabled], input[type=checkbox][disabled], input[type=radio][r
 .input-append .add-on, .input-append .btn, .input-append .btn-group {
 	margin-left: -1px;
 }
-.input-append .add-on:last-child, .input-append .btn:last-child, .input-append .btn-group:last-child > .dropdown-toggle {
+.input-append .add-on:last-child, .input-append .btn:last-child, .input-append .btn-group:last-child &gt; .dropdown-toggle {
 	-webkit-border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
 	border-radius: 0 4px 4px 0;
@@ -1243,7 +1230,7 @@ input.search-query {
 	padding-right: 4px \9;
 	padding-left: 14px;
 	padding-left: 4px \9;
-	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+	/* IE7-8 doesn&#39;t have border-radius, so don&#39;t indent the padding */
 
   margin-bottom: 0;
 	-webkit-border-radius: 15px;
@@ -1317,7 +1304,7 @@ legend + .control-group {
 .form-horizontal .control-group:before, .form-horizontal .control-group:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .form-horizontal .control-group:after {
 	clear: both;
@@ -1396,22 +1383,22 @@ table {
 .table-bordered caption + thead tr:first-child th, .table-bordered caption + tbody tr:first-child th, .table-bordered caption + tbody tr:first-child td, .table-bordered colgroup + thead tr:first-child th, .table-bordered colgroup + tbody tr:first-child th, .table-bordered colgroup + tbody tr:first-child td, .table-bordered thead:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td {
 	border-top: 0;
 }
-.table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child, .table-bordered tbody:first-child tr:first-child > th:first-child {
+.table-bordered thead:first-child tr:first-child &gt; th:first-child, .table-bordered tbody:first-child tr:first-child &gt; td:first-child, .table-bordered tbody:first-child tr:first-child &gt; th:first-child {
 	-webkit-border-top-left-radius: 4px;
 	border-top-left-radius: 4px;
 	-moz-border-radius-topleft: 4px;
 }
-.table-bordered thead:first-child tr:first-child > th:last-child, .table-bordered tbody:first-child tr:first-child > td:last-child, .table-bordered tbody:first-child tr:first-child > th:last-child {
+.table-bordered thead:first-child tr:first-child &gt; th:last-child, .table-bordered tbody:first-child tr:first-child &gt; td:last-child, .table-bordered tbody:first-child tr:first-child &gt; th:last-child {
 	-webkit-border-top-right-radius: 4px;
 	border-top-right-radius: 4px;
 	-moz-border-radius-topright: 4px;
 }
-.table-bordered thead:last-child tr:last-child > th:first-child, .table-bordered tbody:last-child tr:last-child > td:first-child, .table-bordered tbody:last-child tr:last-child > th:first-child, .table-bordered tfoot:last-child tr:last-child > td:first-child, .table-bordered tfoot:last-child tr:last-child > th:first-child {
+.table-bordered thead:last-child tr:last-child &gt; th:first-child, .table-bordered tbody:last-child tr:last-child &gt; td:first-child, .table-bordered tbody:last-child tr:last-child &gt; th:first-child, .table-bordered tfoot:last-child tr:last-child &gt; td:first-child, .table-bordered tfoot:last-child tr:last-child &gt; th:first-child {
 	-webkit-border-bottom-left-radius: 4px;
 	border-bottom-left-radius: 4px;
 	-moz-border-radius-bottomleft: 4px;
 }
-.table-bordered thead:last-child tr:last-child > th:last-child, .table-bordered tbody:last-child tr:last-child > td:last-child, .table-bordered tbody:last-child tr:last-child > th:last-child, .table-bordered tfoot:last-child tr:last-child > td:last-child, .table-bordered tfoot:last-child tr:last-child > th:last-child {
+.table-bordered thead:last-child tr:last-child &gt; th:last-child, .table-bordered tbody:last-child tr:last-child &gt; td:last-child, .table-bordered tbody:last-child tr:last-child &gt; th:last-child, .table-bordered tfoot:last-child tr:last-child &gt; td:last-child, .table-bordered tfoot:last-child tr:last-child &gt; th:last-child {
 	-webkit-border-bottom-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	-moz-border-radius-bottomright: 4px;
@@ -1436,13 +1423,13 @@ table {
 	border-top-right-radius: 4px;
 	-moz-border-radius-topright: 4px;
 }
- .table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+ .table-striped tbody &gt; tr:nth-child(odd) &gt; td, .table-striped tbody &gt; tr:nth-child(odd) &gt; th {
  background-color: #f9f9f9;
 }
-.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
+.table-hover tbody tr:hover &gt; td, .table-hover tbody tr:hover &gt; th {
 	background-color: #f5f5f5;
 }
- table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="span"], .row-fluid table th[class*="span"] {
+ table td[class*=&quot;span&quot;], table th[class*=&quot;span&quot;], .row-fluid table td[class*=&quot;span&quot;], .row-fluid table th[class*=&quot;span&quot;] {
  display: table-cell;
  float: none;
  margin-left: 0;
@@ -1507,32 +1494,32 @@ table {
 	width: 924px;
 	margin-left: 0;
 }
-.table tbody tr.success > td {
+.table tbody tr.success &gt; td {
 	background-color: #dff0d8;
 }
-.table tbody tr.error > td {
+.table tbody tr.error &gt; td {
 	background-color: #f2dede;
 }
-.table tbody tr.warning > td {
+.table tbody tr.warning &gt; td {
 	background-color: #fcf8e3;
 }
-.table tbody tr.info > td {
+.table tbody tr.info &gt; td {
 	background-color: #d9edf7;
 }
-.table-hover tbody tr.success:hover > td {
+.table-hover tbody tr.success:hover &gt; td {
 	background-color: #d0e9c6;
 }
-.table-hover tbody tr.error:hover > td {
+.table-hover tbody tr.error:hover &gt; td {
 	background-color: #ebcccc;
 }
-.table-hover tbody tr.warning:hover > td {
+.table-hover tbody tr.warning:hover &gt; td {
 	background-color: #faf2cc;
 }
-.table-hover tbody tr.info:hover > td {
+.table-hover tbody tr.info:hover &gt; td {
 	background-color: #c4e3f3;
 }
-/*[class^="icon-"],
-[class*=" icon-"] {
+/*[class^=&quot;icon-&quot;],
+[class*=&quot; icon-&quot;] {
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -1540,7 +1527,7 @@ table {
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url(&quot;../img/glyphicons-halflings.png&quot;);
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }*/
@@ -1548,23 +1535,23 @@ table {
 /* White icons with optional class, or on hover/focus/active states of certain elements */
 
 /*.icon-white,
-.nav-pills > .active > a > [class^="icon-"],
-.nav-pills > .active > a > [class*=" icon-"],
-.nav-list > .active > a > [class^="icon-"],
-.nav-list > .active > a > [class*=" icon-"],
-.navbar-inverse .nav > .active > a > [class^="icon-"],
-.navbar-inverse .nav > .active > a > [class*=" icon-"],
-.dropdown-menu > li > a:hover > [class^="icon-"],
-.dropdown-menu > li > a:focus > [class^="icon-"],
-.dropdown-menu > li > a:hover > [class*=" icon-"],
-.dropdown-menu > li > a:focus > [class*=" icon-"],
-.dropdown-menu > .active > a > [class^="icon-"],
-.dropdown-menu > .active > a > [class*=" icon-"],
-.dropdown-submenu:hover > a > [class^="icon-"],
-.dropdown-submenu:focus > a > [class^="icon-"],
-.dropdown-submenu:hover > a > [class*=" icon-"],
-.dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+.nav-pills &gt; .active &gt; a &gt; [class^=&quot;icon-&quot;],
+.nav-pills &gt; .active &gt; a &gt; [class*=&quot; icon-&quot;],
+.nav-list &gt; .active &gt; a &gt; [class^=&quot;icon-&quot;],
+.nav-list &gt; .active &gt; a &gt; [class*=&quot; icon-&quot;],
+.navbar-inverse .nav &gt; .active &gt; a &gt; [class^=&quot;icon-&quot;],
+.navbar-inverse .nav &gt; .active &gt; a &gt; [class*=&quot; icon-&quot;],
+.dropdown-menu &gt; li &gt; a:hover &gt; [class^=&quot;icon-&quot;],
+.dropdown-menu &gt; li &gt; a:focus &gt; [class^=&quot;icon-&quot;],
+.dropdown-menu &gt; li &gt; a:hover &gt; [class*=&quot; icon-&quot;],
+.dropdown-menu &gt; li &gt; a:focus &gt; [class*=&quot; icon-&quot;],
+.dropdown-menu &gt; .active &gt; a &gt; [class^=&quot;icon-&quot;],
+.dropdown-menu &gt; .active &gt; a &gt; [class*=&quot; icon-&quot;],
+.dropdown-submenu:hover &gt; a &gt; [class^=&quot;icon-&quot;],
+.dropdown-submenu:focus &gt; a &gt; [class^=&quot;icon-&quot;],
+.dropdown-submenu:hover &gt; a &gt; [class*=&quot; icon-&quot;],
+.dropdown-submenu:focus &gt; a &gt; [class*=&quot; icon-&quot;] {
+  background-image: url(&quot;../img/glyphicons-halflings-white.png&quot;);
 }*/
 
 .icon-glass {
@@ -2007,7 +1994,7 @@ table {
 	border-top: 4px solid #000000;
 	border-right: 4px solid transparent;
 	border-left: 4px solid transparent;
-	content: "";
+	content: &quot;&quot;;
 }
 .dropdown .caret {
 	margin-top: 8px;
@@ -2052,7 +2039,7 @@ table {
 	background-color: #e5e5e5;
 	border-bottom: 1px solid #ffffff;
 }
-.dropdown-menu > li > a {
+.dropdown-menu &gt; li &gt; a {
 	display: block;
 	padding: 3px 20px;
 	clear: both;
@@ -2061,14 +2048,14 @@ table {
 	color: #333333;
 	white-space: nowrap;
 }
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+.dropdown-menu &gt; li &gt; a:hover, .dropdown-menu &gt; li &gt; a:focus, .dropdown-submenu:hover &gt; a, .dropdown-submenu:focus &gt; a {
 	color: #ffffff;
 	text-decoration: none;
 	background-color: #0081c2;
 	background-repeat: repeat-x;
 	background-image: linear-gradient(to bottom, #0088cc, #0077b3);
 }
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+.dropdown-menu &gt; .active &gt; a, .dropdown-menu &gt; .active &gt; a:hover, .dropdown-menu &gt; .active &gt; a:focus {
 	color: #ffffff;
 	text-decoration: none;
 	background-color: #0081c2;
@@ -2076,10 +2063,10 @@ table {
 	outline: 0;
 	background-image: linear-gradient(to bottom, #0088cc, #0077b3);
 }
-.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+.dropdown-menu &gt; .disabled &gt; a, .dropdown-menu &gt; .disabled &gt; a:hover, .dropdown-menu &gt; .disabled &gt; a:focus {
 	color: #999999;
 }
-.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+.dropdown-menu &gt; .disabled &gt; a:hover, .dropdown-menu &gt; .disabled &gt; a:focus {
 	text-decoration: none;
 	cursor: default;
 	background-color: transparent;
@@ -2089,17 +2076,17 @@ table {
 .open {
  *z-index: 1000;
 }
-.open > .dropdown-menu {
+.open &gt; .dropdown-menu {
 	display: block;
 }
-.pull-right > .dropdown-menu {
+.pull-right &gt; .dropdown-menu {
 	right: 0;
 	left: auto;
 }
 .dropup .caret, .navbar-fixed-bottom .dropdown .caret {
 	border-top: 0;
 	border-bottom: 4px solid #000000;
-	content: "";
+	content: &quot;&quot;;
 }
 .dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
 	top: auto;
@@ -2109,7 +2096,7 @@ table {
 .dropdown-submenu {
 	position: relative;
 }
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu &gt; .dropdown-menu {
 	top: 0;
 	left: 100%;
 	margin-top: -6px;
@@ -2118,10 +2105,10 @@ table {
 	-moz-border-radius: 0 6px 6px 6px;
 	border-radius: 0 6px 6px 6px;
 }
-.dropdown-submenu:hover > .dropdown-menu {
+.dropdown-submenu:hover &gt; .dropdown-menu {
 	display: block;
 }
-.dropup .dropdown-submenu > .dropdown-menu {
+.dropup .dropdown-submenu &gt; .dropdown-menu {
 	top: auto;
 	bottom: 0;
 	margin-top: 0;
@@ -2130,7 +2117,7 @@ table {
 	-moz-border-radius: 5px 5px 5px 0;
 	border-radius: 5px 5px 5px 0;
 }
-.dropdown-submenu > a:after {
+.dropdown-submenu &gt; a:after {
 	display: block;
 	float: right;
 	width: 0;
@@ -2141,15 +2128,15 @@ table {
 	border-left-color: #cccccc;
 	border-style: solid;
 	border-width: 5px 0 5px 5px;
-	content: " ";
+	content: &quot; &quot;;
 }
-.dropdown-submenu:hover > a:after {
+.dropdown-submenu:hover &gt; a:after {
 	border-left-color: #ffffff;
 }
 .dropdown-submenu.pull-left {
 	float: none;
 }
-.dropdown-submenu.pull-left > .dropdown-menu {
+.dropdown-submenu.pull-left &gt; .dropdown-menu {
 	left: -100%;
 	margin-left: 10px;
 	-webkit-border-radius: 6px 0 6px 6px;
@@ -2320,7 +2307,7 @@ button.close {
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
- .btn-large [class^="icon-"], .btn-large [class*=" icon-"] {
+ .btn-large [class^=&quot;icon-&quot;], .btn-large [class*=&quot; icon-&quot;] {
  margin-top: 4px;
 }
 .btn-small {
@@ -2330,10 +2317,10 @@ button.close {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
- .btn-small [class^="icon-"], .btn-small [class*=" icon-"] {
+ .btn-small [class^=&quot;icon-&quot;], .btn-small [class*=&quot; icon-&quot;] {
  margin-top: 0;
 }
- .btn-mini [class^="icon-"], .btn-mini [class*=" icon-"] {
+ .btn-mini [class^=&quot;icon-&quot;], .btn-mini [class*=&quot; icon-&quot;] {
  margin-top: -1px;
 }
 .btn-mini {
@@ -2546,31 +2533,31 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	margin-bottom: 10px;
 	font-size: 0;
 }
-.btn-toolbar > .btn + .btn, .btn-toolbar > .btn-group + .btn, .btn-toolbar > .btn + .btn-group {
+.btn-toolbar &gt; .btn + .btn, .btn-toolbar &gt; .btn-group + .btn, .btn-toolbar &gt; .btn + .btn-group {
 	margin-left: 5px;
 }
-.btn-group > .btn {
+.btn-group &gt; .btn {
 	position: relative;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
 }
-.btn-group > .btn + .btn {
+.btn-group &gt; .btn + .btn {
 	margin-left: -1px;
 }
-.btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover {
+.btn-group &gt; .btn, .btn-group &gt; .dropdown-menu, .btn-group &gt; .popover {
 	font-size: 14px;
 }
-.btn-group > .btn-mini {
+.btn-group &gt; .btn-mini {
 	font-size: 10.5px;
 }
-.btn-group > .btn-small {
+.btn-group &gt; .btn-small {
 	font-size: 11.9px;
 }
-.btn-group > .btn-large {
+.btn-group &gt; .btn-large {
 	font-size: 17.5px;
 }
-.btn-group > .btn:first-child {
+.btn-group &gt; .btn:first-child {
 	margin-left: 0;
 	-webkit-border-bottom-left-radius: 4px;
 	border-bottom-left-radius: 4px;
@@ -2579,7 +2566,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-bottomleft: 4px;
 	-moz-border-radius-topleft: 4px;
 }
-.btn-group > .btn:last-child, .btn-group > .dropdown-toggle {
+.btn-group &gt; .btn:last-child, .btn-group &gt; .dropdown-toggle {
 	-webkit-border-top-right-radius: 4px;
 	border-top-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
@@ -2587,7 +2574,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-topright: 4px;
 	-moz-border-radius-bottomright: 4px;
 }
-.btn-group > .btn.large:first-child {
+.btn-group &gt; .btn.large:first-child {
 	margin-left: 0;
 	-webkit-border-bottom-left-radius: 6px;
 	border-bottom-left-radius: 6px;
@@ -2596,7 +2583,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-bottomleft: 6px;
 	-moz-border-radius-topleft: 6px;
 }
-.btn-group > .btn.large:last-child, .btn-group > .large.dropdown-toggle {
+.btn-group &gt; .btn.large:last-child, .btn-group &gt; .large.dropdown-toggle {
 	-webkit-border-top-right-radius: 6px;
 	border-top-right-radius: 6px;
 	-webkit-border-bottom-right-radius: 6px;
@@ -2604,13 +2591,13 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-topright: 6px;
 	-moz-border-radius-bottomright: 6px;
 }
-.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active {
+.btn-group &gt; .btn:hover, .btn-group &gt; .btn:focus, .btn-group &gt; .btn:active, .btn-group &gt; .btn.active {
 	z-index: 2;
 }
 .btn-group .dropdown-toggle:active, .btn-group.open .dropdown-toggle {
 	outline: 0;
 }
-.btn-group > .btn + .dropdown-toggle {
+.btn-group &gt; .btn + .dropdown-toggle {
  *padding-top: 5px;
 	padding-right: 8px;
  *padding-bottom: 5px;
@@ -2619,17 +2606,17 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.125), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
-.btn-group > .btn-mini + .dropdown-toggle {
+.btn-group &gt; .btn-mini + .dropdown-toggle {
  *padding-top: 2px;
 	padding-right: 5px;
  *padding-bottom: 2px;
 	padding-left: 5px;
 }
-.btn-group > .btn-small + .dropdown-toggle {
+.btn-group &gt; .btn-small + .dropdown-toggle {
  *padding-top: 5px;
  *padding-bottom: 4px;
 }
-.btn-group > .btn-large + .dropdown-toggle {
+.btn-group &gt; .btn-large + .dropdown-toggle {
  *padding-top: 7px;
 	padding-right: 12px;
  *padding-bottom: 7px;
@@ -2691,7 +2678,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 
   *zoom: 1;
 }
-.btn-group-vertical > .btn {
+.btn-group-vertical &gt; .btn {
 	display: block;
 	float: none;
 	max-width: 100%;
@@ -2699,26 +2686,26 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius: 0;
 	border-radius: 0;
 }
-.btn-group-vertical > .btn + .btn {
+.btn-group-vertical &gt; .btn + .btn {
 	margin-top: -1px;
 	margin-left: 0;
 }
-.btn-group-vertical > .btn:first-child {
+.btn-group-vertical &gt; .btn:first-child {
 	-webkit-border-radius: 4px 4px 0 0;
 	-moz-border-radius: 4px 4px 0 0;
 	border-radius: 4px 4px 0 0;
 }
-.btn-group-vertical > .btn:last-child {
+.btn-group-vertical &gt; .btn:last-child {
 	-webkit-border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 4px 4px;
 }
-.btn-group-vertical > .btn-large:first-child {
+.btn-group-vertical &gt; .btn-large:first-child {
 	-webkit-border-radius: 6px 6px 0 0;
 	-moz-border-radius: 6px 6px 0 0;
 	border-radius: 6px 6px 0 0;
 }
-.btn-group-vertical > .btn-large:last-child {
+.btn-group-vertical &gt; .btn-large:last-child {
 	-webkit-border-radius: 0 0 6px 6px;
 	-moz-border-radius: 0 0 6px 6px;
 	border-radius: 0 0 6px 6px;
@@ -2773,7 +2760,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	padding-top: 14px;
 	padding-bottom: 14px;
 }
-.alert-block > p, .alert-block > ul {
+.alert-block &gt; p, .alert-block &gt; ul {
 	margin-bottom: 0;
 }
 .alert-block p + p {
@@ -2784,17 +2771,17 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	margin-left: 0;
 	list-style: none;
 }
-.nav > li > a {
+.nav &gt; li &gt; a {
 	display: block;
 }
-.nav > li > a:hover, .nav > li > a:focus {
+.nav &gt; li &gt; a:hover, .nav &gt; li &gt; a:focus {
 	text-decoration: none;
 	background-color: #eeeeee;
 }
-.nav > li > a > img {
+.nav &gt; li &gt; a &gt; img {
 	max-width: none;
 }
-.nav > .pull-right {
+.nav &gt; .pull-right {
 	float: right;
 }
 .nav-header {
@@ -2815,20 +2802,20 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	padding-left: 15px;
 	margin-bottom: 0;
 }
-.nav-list > li > a, .nav-list .nav-header {
+.nav-list &gt; li &gt; a, .nav-list .nav-header {
 	margin-right: -15px;
 	margin-left: -15px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
-.nav-list > li > a {
+.nav-list &gt; li &gt; a {
 	padding: 3px 15px;
 }
-.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+.nav-list &gt; .active &gt; a, .nav-list &gt; .active &gt; a:hover, .nav-list &gt; .active &gt; a:focus {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #0088cc;
 }
- .nav-list [class^="icon-"], .nav-list [class*=" icon-"] {
+ .nav-list [class^=&quot;icon-&quot;], .nav-list [class*=&quot; icon-&quot;] {
  margin-right: 2px;
 }
 .nav-list .divider {
@@ -2846,15 +2833,15 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .nav-tabs:before, .nav-pills:before, .nav-tabs:after, .nav-pills:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .nav-tabs:after, .nav-pills:after {
 	clear: both;
 }
-.nav-tabs > li, .nav-pills > li {
+.nav-tabs &gt; li, .nav-pills &gt; li {
 	float: left;
 }
-.nav-tabs > li > a, .nav-pills > li > a {
+.nav-tabs &gt; li &gt; a, .nav-pills &gt; li &gt; a {
 	padding-right: 12px;
 	padding-left: 12px;
 	margin-right: 2px;
@@ -2863,10 +2850,10 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .nav-tabs {
 	border-bottom: 1px solid #ddd;
 }
-.nav-tabs > li {
+.nav-tabs &gt; li {
 	margin-bottom: -1px;
 }
-.nav-tabs > li > a {
+.nav-tabs &gt; li &gt; a {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	line-height: 20px;
@@ -2875,17 +2862,17 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius: 4px 4px 0 0;
 	border-radius: 4px 4px 0 0;
 }
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+.nav-tabs &gt; li &gt; a:hover, .nav-tabs &gt; li &gt; a:focus {
 	border-color: #eeeeee #eeeeee #dddddd;
 }
-.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+.nav-tabs &gt; .active &gt; a, .nav-tabs &gt; .active &gt; a:hover, .nav-tabs &gt; .active &gt; a:focus {
 	color: #555555;
 	cursor: default;
 	background-color: #ffffff;
 	border: 1px solid #ddd;
 	border-bottom-color: transparent;
 }
-.nav-pills > li > a {
+.nav-pills &gt; li &gt; a {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-top: 2px;
@@ -2894,26 +2881,26 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+.nav-pills &gt; .active &gt; a, .nav-pills &gt; .active &gt; a:hover, .nav-pills &gt; .active &gt; a:focus {
 	color: #ffffff;
 	background-color: #0088cc;
 }
-.nav-stacked > li {
+.nav-stacked &gt; li {
 	float: none;
 }
-.nav-stacked > li > a {
+.nav-stacked &gt; li &gt; a {
 	margin-right: 0;
 }
 .nav-tabs.nav-stacked {
 	border-bottom: 0;
 }
-.nav-tabs.nav-stacked > li > a {
+.nav-tabs.nav-stacked &gt; li &gt; a {
 	border: 1px solid #ddd;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
 }
-.nav-tabs.nav-stacked > li:first-child > a {
+.nav-tabs.nav-stacked &gt; li:first-child &gt; a {
 	-webkit-border-top-right-radius: 4px;
 	border-top-right-radius: 4px;
 	-webkit-border-top-left-radius: 4px;
@@ -2921,7 +2908,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-topright: 4px;
 	-moz-border-radius-topleft: 4px;
 }
-.nav-tabs.nav-stacked > li:last-child > a {
+.nav-tabs.nav-stacked &gt; li:last-child &gt; a {
 	-webkit-border-bottom-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
@@ -2929,14 +2916,14 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-bottomright: 4px;
 	-moz-border-radius-bottomleft: 4px;
 }
-.nav-tabs.nav-stacked > li > a:hover, .nav-tabs.nav-stacked > li > a:focus {
+.nav-tabs.nav-stacked &gt; li &gt; a:hover, .nav-tabs.nav-stacked &gt; li &gt; a:focus {
 	z-index: 2;
 	border-color: #ddd;
 }
-.nav-pills.nav-stacked > li > a {
+.nav-pills.nav-stacked &gt; li &gt; a {
 	margin-bottom: 3px;
 }
-.nav-pills.nav-stacked > li:last-child > a {
+.nav-pills.nav-stacked &gt; li:last-child &gt; a {
 	margin-bottom: 1px;
 }
 .nav-tabs .dropdown-menu {
@@ -2971,10 +2958,10 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	border-top-color: #555555;
 	border-bottom-color: #555555;
 }
-.nav > .dropdown.active > a:hover, .nav > .dropdown.active > a:focus {
+.nav &gt; .dropdown.active &gt; a:hover, .nav &gt; .dropdown.active &gt; a:focus {
 	cursor: pointer;
 }
-.nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover, .nav > li.dropdown.open.active > a:focus {
+.nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav &gt; li.dropdown.open.active &gt; a:hover, .nav &gt; li.dropdown.open.active &gt; a:focus {
 	color: #ffffff;
 	background-color: #999999;
 	border-color: #999999;
@@ -2985,7 +2972,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
-.tabs-stacked .open > a:hover, .tabs-stacked .open > a:focus {
+.tabs-stacked .open &gt; a:hover, .tabs-stacked .open &gt; a:focus {
 	border-color: #999999;
 }
 .tabbable {
@@ -2994,7 +2981,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .tabbable:before, .tabbable:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .tabbable:after {
 	clear: both;
@@ -3002,82 +2989,82 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .tab-content {
 	overflow: auto;
 }
-.tabs-below > .nav-tabs, .tabs-right > .nav-tabs, .tabs-left > .nav-tabs {
+.tabs-below &gt; .nav-tabs, .tabs-right &gt; .nav-tabs, .tabs-left &gt; .nav-tabs {
 	border-bottom: 0;
 }
-.tab-content > .tab-pane, .pill-content > .pill-pane {
+.tab-content &gt; .tab-pane, .pill-content &gt; .pill-pane {
 	display: none;
 }
-.tab-content > .active, .pill-content > .active {
+.tab-content &gt; .active, .pill-content &gt; .active {
 	display: block;
 }
-.tabs-below > .nav-tabs {
+.tabs-below &gt; .nav-tabs {
 	border-top: 1px solid #ddd;
 }
-.tabs-below > .nav-tabs > li {
+.tabs-below &gt; .nav-tabs &gt; li {
 	margin-top: -1px;
 	margin-bottom: 0;
 }
-.tabs-below > .nav-tabs > li > a {
+.tabs-below &gt; .nav-tabs &gt; li &gt; a {
 	-webkit-border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 4px 4px;
 }
-.tabs-below > .nav-tabs > li > a:hover, .tabs-below > .nav-tabs > li > a:focus {
+.tabs-below &gt; .nav-tabs &gt; li &gt; a:hover, .tabs-below &gt; .nav-tabs &gt; li &gt; a:focus {
 	border-top-color: #ddd;
 	border-bottom-color: transparent;
 }
-.tabs-below > .nav-tabs > .active > a, .tabs-below > .nav-tabs > .active > a:hover, .tabs-below > .nav-tabs > .active > a:focus {
+.tabs-below &gt; .nav-tabs &gt; .active &gt; a, .tabs-below &gt; .nav-tabs &gt; .active &gt; a:hover, .tabs-below &gt; .nav-tabs &gt; .active &gt; a:focus {
 	border-color: transparent #ddd #ddd #ddd;
 }
-.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+.tabs-left &gt; .nav-tabs &gt; li, .tabs-right &gt; .nav-tabs &gt; li {
 	float: none;
 }
-.tabs-left > .nav-tabs > li > a, .tabs-right > .nav-tabs > li > a {
+.tabs-left &gt; .nav-tabs &gt; li &gt; a, .tabs-right &gt; .nav-tabs &gt; li &gt; a {
 	min-width: 74px;
 	margin-right: 0;
 	margin-bottom: 3px;
 }
-.tabs-left > .nav-tabs {
+.tabs-left &gt; .nav-tabs {
 	float: left;
 	margin-right: 19px;
 	border-right: 1px solid #ddd;
 }
-.tabs-left > .nav-tabs > li > a {
+.tabs-left &gt; .nav-tabs &gt; li &gt; a {
 	margin-right: -1px;
 	-webkit-border-radius: 4px 0 0 4px;
 	-moz-border-radius: 4px 0 0 4px;
 	border-radius: 4px 0 0 4px;
 }
-.tabs-left > .nav-tabs > li > a:hover, .tabs-left > .nav-tabs > li > a:focus {
+.tabs-left &gt; .nav-tabs &gt; li &gt; a:hover, .tabs-left &gt; .nav-tabs &gt; li &gt; a:focus {
 	border-color: #eeeeee #dddddd #eeeeee #eeeeee;
 }
-.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover, .tabs-left > .nav-tabs .active > a:focus {
+.tabs-left &gt; .nav-tabs .active &gt; a, .tabs-left &gt; .nav-tabs .active &gt; a:hover, .tabs-left &gt; .nav-tabs .active &gt; a:focus {
 	border-color: #ddd transparent #ddd #ddd;
  *border-right-color: #ffffff;
 }
-.tabs-right > .nav-tabs {
+.tabs-right &gt; .nav-tabs {
 	float: right;
 	margin-left: 19px;
 	border-left: 1px solid #ddd;
 }
-.tabs-right > .nav-tabs > li > a {
+.tabs-right &gt; .nav-tabs &gt; li &gt; a {
 	margin-left: -1px;
 	-webkit-border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
 	border-radius: 0 4px 4px 0;
 }
-.tabs-right > .nav-tabs > li > a:hover, .tabs-right > .nav-tabs > li > a:focus {
+.tabs-right &gt; .nav-tabs &gt; li &gt; a:hover, .tabs-right &gt; .nav-tabs &gt; li &gt; a:focus {
 	border-color: #eeeeee #eeeeee #eeeeee #dddddd;
 }
-.tabs-right > .nav-tabs .active > a, .tabs-right > .nav-tabs .active > a:hover, .tabs-right > .nav-tabs .active > a:focus {
+.tabs-right &gt; .nav-tabs .active &gt; a, .tabs-right &gt; .nav-tabs .active &gt; a:hover, .tabs-right &gt; .nav-tabs .active &gt; a:focus {
 	border-color: #ddd #ddd #ddd transparent;
  *border-left-color: #ffffff;
 }
-.nav > .disabled > a {
+.nav &gt; .disabled &gt; a {
 	color: #999999;
 }
-.nav > .disabled > a:hover, .nav > .disabled > a:focus {
+.nav &gt; .disabled &gt; a:hover, .nav &gt; .disabled &gt; a:focus {
 	text-decoration: none;
 	cursor: default;
 	background-color: transparent;
@@ -3107,7 +3094,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar-inner:before, .navbar-inner:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .navbar-inner:after {
 	clear: both;
@@ -3162,7 +3149,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar-form:before, .navbar-form:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .navbar-form:after {
 	clear: both;
@@ -3193,7 +3180,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar-search .search-query {
 	padding: 4px 14px;
 	margin-bottom: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 1;
@@ -3260,10 +3247,10 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	float: right;
 	margin-right: 0;
 }
-.navbar .nav > li {
+.navbar .nav &gt; li {
 	float: left;
 }
-.navbar .nav > li > a {
+.navbar .nav &gt; li &gt; a {
 	float: none;
 	padding: 10px 15px 10px;
 	color: #777777;
@@ -3273,12 +3260,12 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar .nav .dropdown-toggle .caret {
 	margin-top: 8px;
 }
-.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+.navbar .nav &gt; li &gt; a:focus, .navbar .nav &gt; li &gt; a:hover {
 	color: #333333;
 	text-decoration: none;
 	background-color: transparent;
 }
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+.navbar .nav &gt; .active &gt; a, .navbar .nav &gt; .active &gt; a:hover, .navbar .nav &gt; .active &gt; a:focus {
 	color: #555555;
 	text-decoration: none;
 	background-color: #e5e5e5;
@@ -3329,7 +3316,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .btn-navbar .icon-bar + .icon-bar {
 	margin-top: 3px;
 }
-.navbar .nav > li > .dropdown-menu:before {
+.navbar .nav &gt; li &gt; .dropdown-menu:before {
 	position: absolute;
 	top: -7px;
 	left: 9px;
@@ -3338,9 +3325,9 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	border-bottom: 7px solid #ccc;
 	border-left: 7px solid transparent;
 	border-bottom-color: rgba(0, 0, 0, 0.2);
-	content: '';
+	content: &#39;&#39;;
 }
-.navbar .nav > li > .dropdown-menu:after {
+.navbar .nav &gt; li &gt; .dropdown-menu:after {
 	position: absolute;
 	top: -6px;
 	left: 10px;
@@ -3348,50 +3335,50 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	border-right: 6px solid transparent;
 	border-bottom: 6px solid #ffffff;
 	border-left: 6px solid transparent;
-	content: '';
+	content: &#39;&#39;;
 }
-.navbar-fixed-bottom .nav > li > .dropdown-menu:before {
+.navbar-fixed-bottom .nav &gt; li &gt; .dropdown-menu:before {
 	top: auto;
 	bottom: -7px;
 	border-top: 7px solid #ccc;
 	border-bottom: 0;
 	border-top-color: rgba(0, 0, 0, 0.2);
 }
-.navbar-fixed-bottom .nav > li > .dropdown-menu:after {
+.navbar-fixed-bottom .nav &gt; li &gt; .dropdown-menu:after {
 	top: auto;
 	bottom: -6px;
 	border-top: 6px solid #ffffff;
 	border-bottom: 0;
 }
-.navbar .nav li.dropdown > a:hover .caret, .navbar .nav li.dropdown > a:focus .caret {
+.navbar .nav li.dropdown &gt; a:hover .caret, .navbar .nav li.dropdown &gt; a:focus .caret {
 	border-top-color: #333333;
 	border-bottom-color: #333333;
 }
-.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+.navbar .nav li.dropdown.open &gt; .dropdown-toggle, .navbar .nav li.dropdown.active &gt; .dropdown-toggle, .navbar .nav li.dropdown.open.active &gt; .dropdown-toggle {
 	color: #555555;
 	background-color: #e5e5e5;
 }
-.navbar .nav li.dropdown > .dropdown-toggle .caret {
+.navbar .nav li.dropdown &gt; .dropdown-toggle .caret {
 	border-top-color: #777777;
 	border-bottom-color: #777777;
 }
-.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+.navbar .nav li.dropdown.open &gt; .dropdown-toggle .caret, .navbar .nav li.dropdown.active &gt; .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active &gt; .dropdown-toggle .caret {
 	border-top-color: #555555;
 	border-bottom-color: #555555;
 }
-.navbar .pull-right > li > .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
+.navbar .pull-right &gt; li &gt; .dropdown-menu, .navbar .nav &gt; li &gt; .dropdown-menu.pull-right {
 	right: 0;
 	left: auto;
 }
-.navbar .pull-right > li > .dropdown-menu:before, .navbar .nav > li > .dropdown-menu.pull-right:before {
+.navbar .pull-right &gt; li &gt; .dropdown-menu:before, .navbar .nav &gt; li &gt; .dropdown-menu.pull-right:before {
 	right: 12px;
 	left: auto;
 }
-.navbar .pull-right > li > .dropdown-menu:after, .navbar .nav > li > .dropdown-menu.pull-right:after {
+.navbar .pull-right &gt; li &gt; .dropdown-menu:after, .navbar .nav &gt; li &gt; .dropdown-menu.pull-right:after {
 	right: 13px;
 	left: auto;
 }
-.navbar .pull-right > li > .dropdown-menu .dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
+.navbar .pull-right &gt; li &gt; .dropdown-menu .dropdown-menu, .navbar .nav &gt; li &gt; .dropdown-menu.pull-right .dropdown-menu {
 	right: 100%;
 	left: auto;
 	margin-right: -1px;
@@ -3403,11 +3390,11 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar-inverse .navbar-inner {
 	background:#EF9E10;
 }
-.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+.navbar-inverse .brand, .navbar-inverse .nav &gt; li &gt; a {
 	color: #999999;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-.navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav > li > a:focus {
+.navbar-inverse .brand:hover, .navbar-inverse .nav &gt; li &gt; a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav &gt; li &gt; a:focus {
 	color: #ffffff;
 }
 .navbar-inverse .brand {
@@ -3416,11 +3403,11 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar-inverse .navbar-text {
 	color: #999999;
 }
-.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+.navbar-inverse .nav &gt; li &gt; a:focus, .navbar-inverse .nav &gt; li &gt; a:hover {
 	color: #ffffff;
 	background-color: transparent;
 }
-.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+.navbar-inverse .nav .active &gt; a, .navbar-inverse .nav .active &gt; a:hover, .navbar-inverse .nav .active &gt; a:focus {
 	color: #ffffff;
 	background-color: #111111;
 }
@@ -3434,19 +3421,19 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	border-right-color: #222222;
 	border-left-color: #111111;
 }
-.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+.navbar-inverse .nav li.dropdown.open &gt; .dropdown-toggle, .navbar-inverse .nav li.dropdown.active &gt; .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active &gt; .dropdown-toggle {
 	color: #ffffff;
 	background-color: #111111;
 }
-.navbar-inverse .nav li.dropdown > a:hover .caret, .navbar-inverse .nav li.dropdown > a:focus .caret {
+.navbar-inverse .nav li.dropdown &gt; a:hover .caret, .navbar-inverse .nav li.dropdown &gt; a:focus .caret {
 	border-top-color: #ffffff;
 	border-bottom-color: #ffffff;
 }
-.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+.navbar-inverse .nav li.dropdown &gt; .dropdown-toggle .caret {
 	border-top-color: #999999;
 	border-bottom-color: #999999;
 }
-.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
+.navbar-inverse .nav li.dropdown.open &gt; .dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.active &gt; .dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.open.active &gt; .dropdown-toggle .caret {
 	border-top-color: #ffffff;
 	border-bottom-color: #ffffff;
 }
@@ -3511,17 +3498,17 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
-.breadcrumb > li {
+.breadcrumb &gt; li {
 	display: inline-block;
  *display: inline;
 	text-shadow: 0 1px 0 #ffffff;
  *zoom: 1;
 }
-.breadcrumb > li > .divider {
+.breadcrumb &gt; li &gt; .divider {
 	padding: 0 5px;
 	color: #ccc;
 }
-.breadcrumb > .active {
+.breadcrumb &gt; .active {
 	color: #999999;
 }
 .pagination {
@@ -3540,10 +3527,10 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
-.pagination ul > li {
+.pagination ul &gt; li {
 	display: inline;
 }
-.pagination ul > li > a, .pagination ul > li > span {
+.pagination ul &gt; li &gt; a, .pagination ul &gt; li &gt; span {
 	float: left;
 	padding: 4px 12px;
 	line-height: 20px;
@@ -3552,19 +3539,19 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	border: 1px solid #dddddd;
 	border-left-width: 0;
 }
-.pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {
+.pagination ul &gt; li &gt; a:hover, .pagination ul &gt; li &gt; a:focus, .pagination ul &gt; .active &gt; a, .pagination ul &gt; .active &gt; span {
 	background-color: #f5f5f5;
 }
-.pagination ul > .active > a, .pagination ul > .active > span {
+.pagination ul &gt; .active &gt; a, .pagination ul &gt; .active &gt; span {
 	color: #999999;
 	cursor: default;
 }
-.pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover, .pagination ul > .disabled > a:focus {
+.pagination ul &gt; .disabled &gt; span, .pagination ul &gt; .disabled &gt; a, .pagination ul &gt; .disabled &gt; a:hover, .pagination ul &gt; .disabled &gt; a:focus {
 	color: #999999;
 	cursor: default;
 	background-color: transparent;
 }
-.pagination ul > li:first-child > a, .pagination ul > li:first-child > span {
+.pagination ul &gt; li:first-child &gt; a, .pagination ul &gt; li:first-child &gt; span {
 	border-left-width: 1px;
 	-webkit-border-bottom-left-radius: 4px;
 	border-bottom-left-radius: 4px;
@@ -3573,7 +3560,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-bottomleft: 4px;
 	-moz-border-radius-topleft: 4px;
 }
-.pagination ul > li:last-child > a, .pagination ul > li:last-child > span {
+.pagination ul &gt; li:last-child &gt; a, .pagination ul &gt; li:last-child &gt; span {
 	-webkit-border-top-right-radius: 4px;
 	border-top-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
@@ -3587,11 +3574,11 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .pagination-right {
 	text-align: right;
 }
-.pagination-large ul > li > a, .pagination-large ul > li > span {
+.pagination-large ul &gt; li &gt; a, .pagination-large ul &gt; li &gt; span {
 	padding: 11px 19px;
 	font-size: 17.5px;
 }
-.pagination-large ul > li:first-child > a, .pagination-large ul > li:first-child > span {
+.pagination-large ul &gt; li:first-child &gt; a, .pagination-large ul &gt; li:first-child &gt; span {
 	-webkit-border-bottom-left-radius: 6px;
 	border-bottom-left-radius: 6px;
 	-webkit-border-top-left-radius: 6px;
@@ -3599,7 +3586,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-bottomleft: 6px;
 	-moz-border-radius-topleft: 6px;
 }
-.pagination-large ul > li:last-child > a, .pagination-large ul > li:last-child > span {
+.pagination-large ul &gt; li:last-child &gt; a, .pagination-large ul &gt; li:last-child &gt; span {
 	-webkit-border-top-right-radius: 6px;
 	border-top-right-radius: 6px;
 	-webkit-border-bottom-right-radius: 6px;
@@ -3607,7 +3594,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-topright: 6px;
 	-moz-border-radius-bottomright: 6px;
 }
-.pagination-mini ul > li:first-child > a, .pagination-small ul > li:first-child > a, .pagination-mini ul > li:first-child > span, .pagination-small ul > li:first-child > span {
+.pagination-mini ul &gt; li:first-child &gt; a, .pagination-small ul &gt; li:first-child &gt; a, .pagination-mini ul &gt; li:first-child &gt; span, .pagination-small ul &gt; li:first-child &gt; span {
 	-webkit-border-bottom-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 	-webkit-border-top-left-radius: 3px;
@@ -3615,7 +3602,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-bottomleft: 3px;
 	-moz-border-radius-topleft: 3px;
 }
-.pagination-mini ul > li:last-child > a, .pagination-small ul > li:last-child > a, .pagination-mini ul > li:last-child > span, .pagination-small ul > li:last-child > span {
+.pagination-mini ul &gt; li:last-child &gt; a, .pagination-small ul &gt; li:last-child &gt; a, .pagination-mini ul &gt; li:last-child &gt; span, .pagination-small ul &gt; li:last-child &gt; span {
 	-webkit-border-top-right-radius: 3px;
 	border-top-right-radius: 3px;
 	-webkit-border-bottom-right-radius: 3px;
@@ -3623,11 +3610,11 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius-topright: 3px;
 	-moz-border-radius-bottomright: 3px;
 }
-.pagination-small ul > li > a, .pagination-small ul > li > span {
+.pagination-small ul &gt; li &gt; a, .pagination-small ul &gt; li &gt; span {
 	padding: 2px 10px;
 	font-size: 11.9px;
 }
-.pagination-mini ul > li > a, .pagination-mini ul > li > span {
+.pagination-mini ul &gt; li &gt; a, .pagination-mini ul &gt; li &gt; span {
 	padding: 0 6px;
 	font-size: 10.5px;
 }
@@ -3640,7 +3627,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .pager:before, .pager:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .pager:after {
 	clear: both;
@@ -3648,7 +3635,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .pager li {
 	display: inline;
 }
-.pager li > a, .pager li > span {
+.pager li &gt; a, .pager li &gt; span {
 	display: inline-block;
 	padding: 5px 14px;
 	background-color: #fff;
@@ -3657,17 +3644,17 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
-.pager li > a:hover, .pager li > a:focus {
+.pager li &gt; a:hover, .pager li &gt; a:focus {
 	text-decoration: none;
 	background-color: #f5f5f5;
 }
-.pager .next > a, .pager .next > span {
+.pager .next &gt; a, .pager .next &gt; span {
 	float: right;
 }
-.pager .previous > a, .pager .previous > span {
+.pager .previous &gt; a, .pager .previous &gt; span {
 	float: left;
 }
-.pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
+.pager .disabled &gt; a, .pager .disabled &gt; a:hover, .pager .disabled &gt; a:focus, .pager .disabled &gt; span {
 	color: #999999;
 	cursor: default;
 	background-color: #fff;
@@ -3757,7 +3744,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .modal-footer:before, .modal-footer:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .modal-footer:after {
 	clear: both;
@@ -3914,7 +3901,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 }
 .popover .arrow:after {
 	border-width: 10px;
-	content: "";
+	content: &quot;&quot;;
 }
 .popover.top .arrow {
 	bottom: -11px;
@@ -3980,7 +3967,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .thumbnails:before, .thumbnails:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .thumbnails:after {
 	clear: both;
@@ -3988,7 +3975,7 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .row-fluid .thumbnails {
 	margin-left: 0;
 }
-.thumbnails > li {
+.thumbnails &gt; li {
 	float: left;
 	margin-bottom: 20px;
 	margin-left: 20px;
@@ -4015,7 +4002,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 	-moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 	box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
-.thumbnail > img {
+.thumbnail &gt; img {
 	display: block;
 	max-width: 100%;
 	margin-right: auto;
@@ -4042,10 +4029,10 @@ a.thumbnail:hover, a.thumbnail:focus {
 .media-heading {
 	margin: 0 0 5px;
 }
-.media > .pull-left {
+.media &gt; .pull-left {
 	margin-right: 10px;
 }
-.media > .pull-right {
+.media &gt; .pull-right {
 	margin-left: 10px;
 }
 .media-list {
@@ -4307,7 +4294,7 @@ to {
 	width: 100%;
 	overflow: hidden;
 }
-.carousel-inner > .item {
+.carousel-inner &gt; .item {
 	position: relative;
 	display: none;
 	-webkit-transition: 0.6s ease-in-out left;
@@ -4315,34 +4302,34 @@ to {
 	-o-transition: 0.6s ease-in-out left;
 	transition: 0.6s ease-in-out left;
 }
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.carousel-inner &gt; .item &gt; img, .carousel-inner &gt; .item &gt; a &gt; img {
 	display: block;
 	line-height: 1;
 }
-.carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev {
+.carousel-inner &gt; .active, .carousel-inner &gt; .next, .carousel-inner &gt; .prev {
 	display: block;
 }
-.carousel-inner > .active {
+.carousel-inner &gt; .active {
 	left: 0;
 }
-.carousel-inner > .next, .carousel-inner > .prev {
+.carousel-inner &gt; .next, .carousel-inner &gt; .prev {
 	position: absolute;
 	top: 0;
 	width: 100%;
 }
-.carousel-inner > .next {
+.carousel-inner &gt; .next {
 	left: 100%;
 }
-.carousel-inner > .prev {
+.carousel-inner &gt; .prev {
 	left: -100%;
 }
-.carousel-inner > .next.left, .carousel-inner > .prev.right {
+.carousel-inner &gt; .next.left, .carousel-inner &gt; .prev.right {
 	left: 0;
 }
-.carousel-inner > .active.left {
+.carousel-inner &gt; .active.left {
 	left: -100%;
 }
-.carousel-inner > .active.right {
+.carousel-inner &gt; .active.right {
 	left: 100%;
 }
 .carousel-control {

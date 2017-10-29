@@ -14,7 +14,7 @@
 .clearfix:before, .clearfix:after {
 	display: table;
 	line-height: 0;
-	content: "";
+	content: &quot;&quot;;
 }
 .clearfix:after {
 	clear: both;
@@ -100,12 +100,12 @@
  .row:before,  .row:after {
  display: table;
  line-height: 0;
- content: "";
+ content: &quot;&quot;;
 }
  .row:after {
  clear: both;
 }
- [class*="span"] {
+ [class*=&quot;span&quot;] {
  float: left;
  min-height: 1px;
  margin-left: 30px;
@@ -192,12 +192,12 @@
  .row-fluid:before,  .row-fluid:after {
  display: table;
  line-height: 0;
- content: "";
+ content: &quot;&quot;;
 }
  .row-fluid:after {
  clear: both;
 }
- .row-fluid [class*="span"] {
+ .row-fluid [class*=&quot;span&quot;] {
  display: block;
  float: left;
  width: 100%;
@@ -208,10 +208,10 @@
  -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
- .row-fluid [class*="span"]:first-child {
+ .row-fluid [class*=&quot;span&quot;]:first-child {
  margin-left: 0;
 }
- .row-fluid .controls-row [class*="span"] + [class*="span"] {
+ .row-fluid .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 2.564102564102564%;
 }
  .row-fluid .span12 {
@@ -361,7 +361,7 @@
  input,  textarea,  .uneditable-input {
  margin-left: 0;
 }
- .controls-row [class*="span"] + [class*="span"] {
+ .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 30px;
 }
  input.span12,  textarea.span12,  .uneditable-input.span12 {
@@ -403,7 +403,7 @@
  .thumbnails {
  margin-left: -30px;
 }
- .thumbnails > li {
+ .thumbnails &gt; li {
  margin-left: 30px;
 }
  .row-fluid .thumbnails {
@@ -418,12 +418,12 @@
  .row:before,  .row:after {
  display: table;
  line-height: 0;
- content: "";
+ content: &quot;&quot;;
 }
  .row:after {
  clear: both;
 }
- [class*="span"] {
+ [class*=&quot;span&quot;] {
  float: left;
  min-height: 1px;
  margin-left: 20px;
@@ -510,12 +510,12 @@
  .row-fluid:before,  .row-fluid:after {
  display: table;
  line-height: 0;
- content: "";
+ content: &quot;&quot;;
 }
  .row-fluid:after {
  clear: both;
 }
- .row-fluid [class*="span"] {
+ .row-fluid [class*=&quot;span&quot;] {
  display: block;
  float: left;
  width: 100%;
@@ -526,10 +526,10 @@
  -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
- .row-fluid [class*="span"]:first-child {
+ .row-fluid [class*=&quot;span&quot;]:first-child {
  margin-left: 0;
 }
- .row-fluid .controls-row [class*="span"] + [class*="span"] {
+ .row-fluid .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 2.7624309392265194%;
 }
  .row-fluid .span12 {
@@ -679,7 +679,7 @@
  input,  textarea,  .uneditable-input {
  margin-left: 0;
 }
- .controls-row [class*="span"] + [class*="span"] {
+ .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 20px;
 }
  input.span12,  textarea.span12,  .uneditable-input.span12 {
@@ -749,11 +749,11 @@
  .row,  .thumbnails {
  margin-left: 0;
 }
- .thumbnails > li {
+ .thumbnails &gt; li {
  float: none;
  margin-left: 0;
 }
- [class*="span"],  .uneditable-input[class*="span"],  .row-fluid [class*="span"] {
+ [class*=&quot;span&quot;],  .uneditable-input[class*=&quot;span&quot;],  .row-fluid [class*=&quot;span&quot;] {
  display: block;
  float: none;
  width: 100%;
@@ -768,10 +768,10 @@
  -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
- .row-fluid [class*="offset"]:first-child {
+ .row-fluid [class*=&quot;offset&quot;]:first-child {
  margin-left: 0;
 }
- .input-large,  .input-xlarge,  .input-xxlarge,  input[class*="span"],  select[class*="span"],  textarea[class*="span"],  .uneditable-input {
+ .input-large,  .input-xlarge,  .input-xxlarge,  input[class*=&quot;span&quot;],  select[class*=&quot;span&quot;],  textarea[class*=&quot;span&quot;],  .uneditable-input {
  display: block;
  width: 100%;
  min-height: 30px;
@@ -779,11 +779,11 @@
  -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
- .input-prepend input,  .input-append input,  .input-prepend input[class*="span"],  .input-append input[class*="span"] {
+ .input-prepend input,  .input-append input,  .input-prepend input[class*=&quot;span&quot;],  .input-append input[class*=&quot;span&quot;] {
  display: inline-block;
  width: auto;
 }
- .controls-row [class*="span"] + [class*="span"] {
+ .controls-row [class*=&quot;span&quot;] + [class*=&quot;span&quot;] {
  margin-left: 0;
 }
  .modal {
@@ -882,20 +882,20 @@
  float: none;
  margin: 0 0 10px;
 }
- .nav-collapse .nav > li {
+ .nav-collapse .nav &gt; li {
  float: none;
 }
- .nav-collapse .nav > li > a {
+ .nav-collapse .nav &gt; li &gt; a {
  margin-bottom: 2px;
 }
- .nav-collapse .nav > .divider-vertical {
+ .nav-collapse .nav &gt; .divider-vertical {
  display: none;
 }
  .nav-collapse .nav .nav-header {
  color: #777777;
  text-shadow: none;
 }
- .nav-collapse .nav > li > a,  .nav-collapse .dropdown-menu a {
+ .nav-collapse .nav &gt; li &gt; a,  .nav-collapse .dropdown-menu a {
  padding: 9px 15px;
  font-weight: bold;
  color: #777777;
@@ -913,13 +913,13 @@
  .nav-collapse .dropdown-menu li + li a {
  margin-bottom: 2px;
 }
- .nav-collapse .nav > li > a:hover,  .nav-collapse .nav > li > a:focus,  .nav-collapse .dropdown-menu a:hover,  .nav-collapse .dropdown-menu a:focus {
+ .nav-collapse .nav &gt; li &gt; a:hover,  .nav-collapse .nav &gt; li &gt; a:focus,  .nav-collapse .dropdown-menu a:hover,  .nav-collapse .dropdown-menu a:focus {
  background-color: #f2f2f2;
 }
- .navbar-inverse .nav-collapse .nav > li > a,  .navbar-inverse .nav-collapse .dropdown-menu a {
+ .navbar-inverse .nav-collapse .nav &gt; li &gt; a,  .navbar-inverse .nav-collapse .dropdown-menu a {
  color: #999999;
 }
- .navbar-inverse .nav-collapse .nav > li > a:hover,  .navbar-inverse .nav-collapse .nav > li > a:focus,  .navbar-inverse .nav-collapse .dropdown-menu a:hover,  .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+ .navbar-inverse .nav-collapse .nav &gt; li &gt; a:hover,  .navbar-inverse .nav-collapse .nav &gt; li &gt; a:focus,  .navbar-inverse .nav-collapse .dropdown-menu a:hover,  .navbar-inverse .nav-collapse .dropdown-menu a:focus {
  background-color: #111111;
 }
  .nav-collapse.in .btn-group {
@@ -944,7 +944,7 @@
  -moz-box-shadow: none;
  box-shadow: none;
 }
- .nav-collapse .open > .dropdown-menu {
+ .nav-collapse .open &gt; .dropdown-menu {
  display: block;
 }
  .nav-collapse .dropdown-menu:before,  .nav-collapse .dropdown-menu:after {
@@ -953,7 +953,7 @@
  .nav-collapse .dropdown-menu .divider {
  display: none;
 }
- .nav-collapse .nav > li > .dropdown-menu:before,  .nav-collapse .nav > li > .dropdown-menu:after {
+ .nav-collapse .nav &gt; li &gt; .dropdown-menu:before,  .nav-collapse .nav &gt; li &gt; .dropdown-menu:after {
  display: none;
 }
  .nav-collapse .navbar-form,  .nav-collapse .navbar-search {

@@ -33,14 +33,14 @@ div, article, section, header, footer, nav, li {
 	display:block;
 	height:0;
 	clear:both;
-	content:".";
+	content:&quot;.&quot;;
 	visibility:hidden; /* For clearing */
 }
 body {
 	background:#f0f0f0;
 	color: #312A1E;
 	font-size: 100%;
-	font-family: 'Quattrocento', serif;
+	font-family: &#39;Quattrocento&#39;, serif;
 }
 ::-moz-selection {
 background:#f0bf00;
@@ -62,7 +62,7 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-	font-family: 'Quattrocento', serif;
+	font-family: &#39;Quattrocento&#39;, serif;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 02 Typography -----------------------------------------------------------------------------------------------
@@ -101,7 +101,7 @@ a:hover, a:active {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 }
 h1 {
 	font-size: 1.5em; /* 24px */
@@ -135,7 +135,7 @@ h5 {
 }
 strong {
 	font-weight:normal;
-	font-family: 'Open Sans', sans-serif;
+	font-family: &#39;Open Sans&#39;, sans-serif;
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -145,11 +145,11 @@ small {
 }
 em {
 	font-style: normal;
-	font-family: 'Open Sans';
+	font-family: &#39;Open Sans&#39;;
 }
 .muted {
 	color: #A5A5A2;
-	font-family: 'Quattrocento', serif;
+	font-family: &#39;Quattrocento&#39;, serif;
 }
 .impressed {
 	text-shadow:
@@ -158,7 +158,7 @@ em {
 .more-link {
 	font-size: .875em; /* 14px */
 	margin-top: 1.5em;
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 }
 .more-link:link, .more-link:visited {
 	color: #f0bf00;
@@ -186,7 +186,7 @@ em {
 }
 .medium {
 	font-weight: normal;
-	font-family: 'Quattrocento', serif;
+	font-family: &#39;Quattrocento&#39;, serif;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 04 Navbar ------------------------------------------------------------
@@ -207,7 +207,7 @@ em {
 	font-size: 1.75em;
 	margin-left: 0;
 	font-weight: normal;
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 }
 .navbar .brand a:hover {
 	text-decoration: none;
@@ -233,20 +233,20 @@ em {
 #menu-main {
 	margin-top: 1.125em;
 }
-ul#menu-main > li > a {
-	font-family: 'Patua One', cursive;
+ul#menu-main &gt; li &gt; a {
+	font-family: &#39;Patua One&#39;, cursive;
 	font-weight: normal;
 	font-size: 1em;
 	color: #fff;
 }
-ul#menu-main > li > a:hover {
+ul#menu-main &gt; li &gt; a:hover {
 	background: #f0bf00;
 	padding: 9px 15px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 }
-.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+.navbar-inverse .brand, .navbar-inverse .nav &gt; li &gt; a {
 	text-shadow: none;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
@@ -254,27 +254,27 @@ ul#menu-main > li > a:hover {
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
 	width: 100%;
-	background: url(../img/top-bg.jpg) #0b333f no-repeat center center fixed;
+	background: url(&quot;https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w363-h220-no&quot;) #0b333f no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	;
 	min-height: 600px;
-	margin-top: -60px;
+	margin-top: 60px;
 	padding-top:160px;
 	text-align:center;
 }
 #headerwrap h1 {
 	color: #FFFFFF;
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	font-size: 4em;
 	font-weight: 400;
 	margin: 1em 0;
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-	font-family: 'Open Sans', sans serif;
+	font-family: &#39;Open Sans&#39;, sans serif;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -285,7 +285,7 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: &#39;Open Sans&#39;, sans serif;
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
@@ -304,7 +304,7 @@ ul#menu-main > li > a:hover {
 	width:50%;
 }
 #headerwrap input[type=submit] {
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	color: #fff;
 	width: 185px;
 	height: 2.9em;
@@ -342,13 +342,14 @@ section.single-page {
 }
 section.single-page h1 {
 	text-align: center;
-	font-family:  'Patua One', cursive;
+	font-family:  &#39;Patua One&#39;, cursive;
 	margin-bottom: 2em; /* 72px */
 	font-size: 2.25em; /* 36px */
 }
 #motto {
-	background: #ebc500;
-	height: 406px;
+	background:url(&#39;https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w1113-h675-no&#39;) no-repeat center;
+	background-size:cover;
+	min-height: 406px;
 	z-index: 500;
 	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
@@ -361,7 +362,7 @@ section.single-page h1 {
 	max-width: 1170px;
 }
 #motto-headline {
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	text-transform: uppercase;
 	color: rgba(228, 229, 229, 1);
 	margin-bottom: 3%; /* 39px */
@@ -370,15 +371,14 @@ section.single-page h1 {
 	background-size: 100% auto;
 }
 #motto-headline span {
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	text-transform: lowercase;
 }
 #motto article p {
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	font-size: 40px;
 	margin-bottom: 0;
 	line-height: 1.35;
-	color: #fff;
 }
 /* missions */
 
@@ -396,7 +396,7 @@ section#missions hgroup h2 {
 }
 section#missions hgroup h3 {
 	margin-top:  .35em;
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 }
 section#missions .entry-content {
 	margin: 1em 0 2.5em;
@@ -411,7 +411,7 @@ section#missions .align {
 	margin: 0 auto;
 	max-width: 100%;
 	display: block;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=80)&quot;;
 	filter: alpha(opacity=80);
 	opacity: 0.8;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -422,7 +422,7 @@ section#missions .align {
 	transition: all 0.3s ease-in-out;
 }
 .mask2 img:hover {
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+	-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=99)&quot;;
 	filter: alpha(opacity=99);
 	opacity: 1;
 }
@@ -472,8 +472,8 @@ section#services .span3:hover {
 /* aboutus */
 
 section#aboutus {
-	height:  647px;
-	background: #ebc500;
+	background:#fff;
+	minheight:  647px;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
@@ -483,15 +483,15 @@ section#aboutus {
 }
 section#aboutus .blockquote-wrapper {
 	padding-top: 100px;
-	height:  647px;
+	padding-bottom:50px;
 }
 div.mega {
 }
 div.mega p {
 	font-size: 50px;
 	line-height: 30px;
-	text-align: left;
-	font-family: 'Patua One', cursive;
+	text-align: center;
+	font-family: &#39;Patua One&#39;, cursive;
 	font-weight:bold;
 	color:#312A1E;
 }
@@ -502,7 +502,7 @@ div.mega .cite {
 }
 /* News */
 section#news {
-	background: url("../img/grey-cardboard-bg.png") repeat 0 0;
+	background: url(&quot;../img/grey-cardboard-bg.png&quot;) repeat 0 0;
 }
 section#news .align {
 	font-size: 6em;
@@ -519,12 +519,12 @@ article.post {
 article .inside {
 	margin: 18px 24px 24px;
 	padding-top: 1em;
-	background: /*url("../img/dot-row-2.png")*/ repeat-x scroll 0 0 transparent !important;
+	background: /*url(&quot;../img/dot-row-2.png&quot;)*/ repeat-x scroll 0 0 transparent !important;
 }
 .post-date {
 	color: #A5A5A2;
 	float: right;
-	font-family: 'Open Sans';
+	font-family: &#39;Open Sans&#39;;
 	font-size: 14px;
 	font-style: normal;
 	line-height: 2;
@@ -544,9 +544,9 @@ article .inside {
 }
 /* Team and Contact */
 
-section#team, section#contact {
-	color: #e4e5e2;
-	background:#312A1E;
+section#team{
+background:url(&#39;https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w1113-h675-no&#39;) no-repeat center;
+	background-size:cover;
 }
 section#team .align, section#contact .align {
 	font-size: 6em;
@@ -575,15 +575,14 @@ section#motto .align {
 #motto h1 {
 	font-size: 3em;
 	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 	text-align: center;
 }
 
 /* team */
 
 #team h3 {
-	font-size: 26px;
-	margin-top: 24px;
-	margin-bottom: 0px;
+	font-size: 23px;
 }
 #team h3, .job-position {
 	text-align: center;
@@ -603,7 +602,7 @@ section#motto .align {
 	text-align:center;
 }
 .job-position {
-	font-family: 'Open Sans', sans-serif;
+	font-family: &#39;Open Sans&#39;, sans-serif;
 	margin-bottom: .46155em;
 }
 /* Contact Form */
@@ -614,7 +613,7 @@ section#motto .align {
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: &#39;Open Sans&#39;, sans serif;
 	border: 0;
 	text-align: left;
 	vertical-align: middle;
@@ -633,7 +632,7 @@ section#motto .align {
 	height: 3.25em;
 }
 #theme-form input[type=submit] {
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	color: #fff;
 	width: 185px;
 	height: 60px;
@@ -675,7 +674,7 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-	font-family: 'Open Sans', sans-serif;
+	font-family: &#39;Open Sans&#39;, sans-serif;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -691,7 +690,7 @@ hr.featurette-divider {
 	margin: 3em 0;
 	border-width: 0;
 	height: 9px;
-	background: /*url("../img/dot-row-3-lt.png")*/ repeat-x;
+	background: /*url(&quot;../img/dot-row-3-lt.png&quot;)*/ repeat-x;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 06 Footer ------------------------------------------------------------
@@ -737,7 +736,7 @@ footer p {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	background-color: transparent;
 	border: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: &#39;Open Sans&#39;, sans-serif;
 	opacity: 0.4;
 	border-radius: 0;
 }
@@ -760,7 +759,7 @@ footer p {
 }
 #intro-caption {
 	margin-top:150px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: &#39;Open Sans&#39;, sans-serif;
 	text-align: center;
 	font-size: 80px;
 	line-height: 90px;
@@ -769,7 +768,7 @@ footer p {
 	text-shadow: 2px 2px 2px #000;
 }
 #intro-caption span {
-	font-family:'Open Sans', sans-serif;
+	font-family:&#39;Open Sans&#39;, sans-serif;
 	font-size: 0.65em;
 }
 #banner.carousel .item {
@@ -782,7 +781,7 @@ footer p {
 08 Buttons ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */    
 .btn {
-	font-family: 'Patua One', cursive;
+	font-family: &#39;Patua One&#39;, cursive;
 	color: #fff;
 	width: 185px;
 	height: 20px;
@@ -830,7 +829,7 @@ footer p {
  color: #007ac3;
 }
  #intro-caption {
- font-family: 'Open Sans', sans-serif;
+ font-family: &#39;Open Sans&#39;, sans-serif;
  text-align: center;
  font-size: 60px;
  line-height: 70px;
@@ -922,10 +921,10 @@ footer p {
  #headerwrap h2 {
  font-size:1em;
 }
- #headerwrap input[type="text"] {
+ #headerwrap input[type=&quot;text&quot;] {
  width: 100%;
 }
- #headerwrap input[type="submit"] {
+ #headerwrap input[type=&quot;submit&quot;] {
  margin-top:1em;
  width: 135px;
 }
@@ -940,7 +939,7 @@ footer p {
  text-align:center
 }
  #motto article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: &#39;Open Sans&#39;, sans-serif;
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
@@ -970,7 +969,7 @@ footer p {
 /*	display: none; */
 		}
 		
-		/* missions & News */
+		/* missions  News */
 		
 		#news h1 {
  background: transparent;
@@ -983,7 +982,7 @@ footer p {
  top: 0 !important;
 }
  #motto article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: &#39;Open Sans&#39;, sans-serif;
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
@@ -1063,7 +1062,7 @@ footer p {
  font-size: 1.1875em; /* 19px */
 }
  #motto article p {
- font-family: 'Open Sans', sans-serif;
+ font-family: &#39;Open Sans&#39;, sans-serif;
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
