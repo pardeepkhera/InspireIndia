@@ -33,14 +33,14 @@ div, article, section, header, footer, nav, li {
 	display:block;
 	height:0;
 	clear:both;
-	content:&quot;.&quot;;
+	content:".";
 	visibility:hidden; /* For clearing */
 }
 body {
 	background:#f0f0f0;
 	color: #312A1E;
 	font-size: 100%;
-	font-family: &#39;Quattrocento&#39;, serif;
+	font-family: 'Quattrocento', serif;
 }
 ::-moz-selection {
 background:#f0bf00;
@@ -62,7 +62,7 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-	font-family: &#39;Quattrocento&#39;, serif;
+	font-family: 'Quattrocento', serif;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 02 Typography -----------------------------------------------------------------------------------------------
@@ -97,11 +97,10 @@ a:link, a:visited {
 }
 a:hover, a:active {
 	color: #F1505A;
-	text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 }
 h1 {
 	font-size: 1.5em; /* 24px */
@@ -135,7 +134,7 @@ h5 {
 }
 strong {
 	font-weight:normal;
-	font-family: &#39;Open Sans&#39;, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -145,11 +144,11 @@ small {
 }
 em {
 	font-style: normal;
-	font-family: &#39;Open Sans&#39;;
+	font-family: 'Open Sans';
 }
 .muted {
 	color: #A5A5A2;
-	font-family: &#39;Quattrocento&#39;, serif;
+	font-family: 'Quattrocento', serif;
 }
 .impressed {
 	text-shadow:
@@ -158,7 +157,7 @@ em {
 .more-link {
 	font-size: .875em; /* 14px */
 	margin-top: 1.5em;
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 }
 .more-link:link, .more-link:visited {
 	color: #f0bf00;
@@ -186,7 +185,7 @@ em {
 }
 .medium {
 	font-weight: normal;
-	font-family: &#39;Quattrocento&#39;, serif;
+	font-family: 'Quattrocento', serif;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 04 Navbar ------------------------------------------------------------
@@ -204,14 +203,14 @@ em {
 .navbar .brand a {
 	padding: 0;
 	color: #fff;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	margin-left: 0;
 	font-weight: normal;
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 }
 .navbar .brand a:hover {
 	text-decoration: none;
-	color:#f0bf00;
+	color:#fff;
  transition: color .15s linear;
  -webkit-transition: color .15s linear;
  -moz-transition: color .15s linear;
@@ -233,20 +232,20 @@ em {
 #menu-main {
 	margin-top: 1.125em;
 }
-ul#menu-main &gt; li &gt; a {
-	font-family: &#39;Patua One&#39;, cursive;
+ul#menu-main > li > a {
+	font-family: 'Patua One', cursive;
 	font-weight: normal;
 	font-size: 1em;
 	color: #fff;
 }
-ul#menu-main &gt; li &gt; a:hover {
+ul#menu-main > li > a:hover {
 	background: #f0bf00;
 	padding: 9px 15px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 }
-.navbar-inverse .brand, .navbar-inverse .nav &gt; li &gt; a {
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
 	text-shadow: none;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
@@ -254,27 +253,26 @@ ul#menu-main &gt; li &gt; a:hover {
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
 	width: 100%;
-	background: url(&quot;https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w363-h220-no&quot;) #0b333f no-repeat center center;
+	background: url(../img/top-bg.jpg)no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	;
 	min-height: 600px;
-	margin-top: 60px;
+	margin-top: -50px;
 	padding-top:160px;
 	text-align:center;
 }
 #headerwrap h1 {
 	color: #FFFFFF;
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 	font-size: 4em;
 	font-weight: 400;
 	margin: 1em 0;
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-	font-family: &#39;Open Sans&#39;, sans serif;
+	font-family: 'Open Sans', sans serif;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -285,7 +283,7 @@ ul#menu-main &gt; li &gt; a:hover {
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
-	font-family: &#39;Open Sans&#39;, sans serif;
+	font-family: 'Open Sans', sans serif;
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
@@ -304,7 +302,7 @@ ul#menu-main &gt; li &gt; a:hover {
 	width:50%;
 }
 #headerwrap input[type=submit] {
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 	color: #fff;
 	width: 185px;
 	height: 2.9em;
@@ -342,27 +340,27 @@ section.single-page {
 }
 section.single-page h1 {
 	text-align: center;
-	font-family:  &#39;Patua One&#39;, cursive;
+	font-family:  'Patua One', cursive;
 	margin-bottom: 2em; /* 72px */
 	font-size: 2.25em; /* 36px */
 }
-#motto {
-	background:url(&#39;https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w1113-h675-no&#39;) no-repeat center;
-	background-size:cover;
+#feature {
+	background: url("https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w363-h220-no")no-repeat center;
+	background-size: cover;
 	min-height: 406px;
 	z-index: 500;
 	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
-	padding: 80px;	
+	color: #312A1E;
 }
-#motto article {
+#feature article {
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 120px;
 	max-width: 1170px;
 }
-#motto-headline {
-	font-family: &#39;Patua One&#39;, cursive;
+#feature-headline {
+	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
 	color: rgba(228, 229, 229, 1);
 	margin-bottom: 3%; /* 39px */
@@ -370,48 +368,49 @@ section.single-page h1 {
 	height: 109px;
 	background-size: 100% auto;
 }
-#motto-headline span {
-	font-family: &#39;Patua One&#39;, cursive;
+#feature-headline span {
+	font-family: 'Patua One', cursive;
 	text-transform: lowercase;
 }
-#motto article p {
-	font-family: &#39;Patua One&#39;, cursive;
+#feature article p {
+	font-family: 'Patua One', cursive;
 	font-size: 40px;
 	margin-bottom: 0;
 	line-height: 1.35;
+	color: #312A1E;
 }
-/* missions */
+/* Portfolio */
 
-section#missions {
+section#portfolio {
 	padding-bottom: 0;
 }
-section#missions h1 {
+section#portfolio h1 {
 	font-size: 3em;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
 }
-section#missions hgroup h2 {
+section#portfolio hgroup h2 {
 	margin-top: 1em;
 	text-transform: capitalize;
 }
-section#missions hgroup h3 {
+section#portfolio hgroup h3 {
 	margin-top:  .35em;
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 }
-section#missions .entry-content {
+section#portfolio .entry-content {
 	margin: 1em 0 2.5em;
 }
-section#missions .align {
+section#portfolio .align {
 	text-align:center;
 	margin-top:10px;
 	font-size:6em;
 }
-/* missions Image Hover */
+/* Portfolio Image Hover */
 .mask2 img {
 	margin: 0 auto;
 	max-width: 100%;
 	display: block;
-	-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=80)&quot;;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: 0.8;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -422,7 +421,7 @@ section#missions .align {
 	transition: all 0.3s ease-in-out;
 }
 .mask2 img:hover {
-	-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=99)&quot;;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
 	filter: alpha(opacity=99);
 	opacity: 1;
 }
@@ -469,11 +468,12 @@ section#services .span3:hover {
 	background:#e3e3e3;
 	box-shadow: 1px 1px 6px #C1BAC1;
 }
-/* aboutus */
+/* Testimonials */
 
-section#aboutus {
-	background:#fff;
-	minheight:  647px;
+section#testimonials {
+	min-height:  647px;
+	background: url("https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w363-h220-no") no-repeat center;
+	background-size: cover;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
@@ -481,28 +481,30 @@ section#aboutus {
 	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
 }
-section#aboutus .blockquote-wrapper {
-	padding-top: 100px;
-	padding-bottom:50px;
+section#testimonials .blockquote-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	height:  647px;
 }
-div.mega {
+blockquote.mega {
 }
-div.mega p {
-	font-size: 50px;
-	line-height: 30px;
-	text-align: center;
-	font-family: &#39;Patua One&#39;, cursive;
-	font-weight:bold;
-	color:#312A1E;
+blockquote.mega p {
+	margin-bottom: 40px;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    color: #312A1E;
 }
-div.mega .cite {
+blockquote.mega .cite {
 	font-size: 22px;
-	text-align: justify;
+	text-align: left;
 	font-weight:300;
 }
 /* News */
 section#news {
-	background: url(&quot;../img/grey-cardboard-bg.png&quot;) repeat 0 0;
+	background: url("../img/grey-cardboard-bg.png") repeat 0 0;
 }
 section#news .align {
 	font-size: 6em;
@@ -519,12 +521,12 @@ article.post {
 article .inside {
 	margin: 18px 24px 24px;
 	padding-top: 1em;
-	background: /*url(&quot;../img/dot-row-2.png&quot;)*/ repeat-x scroll 0 0 transparent !important;
+	background: /*url("../img/dot-row-2.png")*/ repeat-x scroll 0 0 transparent !important;
 }
 .post-date {
 	color: #A5A5A2;
 	float: right;
-	font-family: &#39;Open Sans&#39;;
+	font-family: 'Open Sans';
 	font-size: 14px;
 	font-style: normal;
 	line-height: 2;
@@ -545,8 +547,9 @@ article .inside {
 /* Team and Contact */
 
 section#team{
-background:url(&#39;https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w1113-h675-no&#39;) no-repeat center;
-	background-size:cover;
+	color: #312A1E;
+	background:url("https://lh3.googleusercontent.com/sjZeKbwL8O3-O5rDwtEf4XqXxdVs6cucoSpWIdQ7heiHjY4duxTprtw7NIZrDW3ln68I3Yn-KtdGPjTctgQf6kfgwRR_URqJ9ayCpDnxyGFo5t5gFb2-Q-Ku483zH6s3cyKdjk17Di5TJoCM1S6qAww3fjORKDWa-kJsTopnjIDcUl7mhEJCVCP9f8VH_gC2UrRDWUZJ4gWG2yD0lu2ia28IYGKJEeay47i3SRztGO1utlkj4OD5rfwayv3fHLjH8RLpCX0MOF2uTtpKlOpuCqg0b_ffEeceGMG5vBy2uV8PqfWLAv-xGPvKDe3YOlSXrY-AdPAF3se9t9dZZ934LGUjkWyUv0kJ4d3tctUTbkVECpPnO2TEiN608l3mhWn_RaT0JAVBzBXjXO0mc5dwsiVLUDmKITjO9aN33Kl5L9E2fDaYpUxgk58WqEKX6HXlHUbwNaBl_EDvRTgx9KHo30Y03lYLXoo2KNbkBOHB4Z2kdPVD3IyXa2BAagJ5C2H8sEaLp9gbf2sAsmG-lIjSUkdLcqLje2GbynUxOzj3fZRNeB8TM8UMw466bsv-t7Ff1mC2wPkgjiy6cGPbOJRMGQXOxT7EuvkbhZdxEdSIeg=w363-h220-no") no-repeat center;
+	background-size: cover;
 }
 section#team .align, section#contact .align {
 	font-size: 6em;
@@ -564,25 +567,15 @@ section#team .align, section#contact .align {
 	padding-bottom: 0;
 }
 #contact {
+	background: white;	
 	padding-bottom: 0;
 }
-/*motto*/
-
-section#motto .align {
-	font-size: 6em;
-	text-align: center;
-}
-#motto h1 {
-	font-size: 3em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	text-align: center;
-}
-
 /* team */
 
 #team h3 {
-	font-size: 23px;
+	font-size: 26px;
+	margin-top: 24px;
+	margin-bottom: 0px;
 }
 #team h3, .job-position {
 	text-align: center;
@@ -602,7 +595,7 @@ section#motto .align {
 	text-align:center;
 }
 .job-position {
-	font-family: &#39;Open Sans&#39;, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: .46155em;
 }
 /* Contact Form */
@@ -613,7 +606,7 @@ section#motto .align {
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
-	font-family: &#39;Open Sans&#39;, sans serif;
+	font-family: 'Open Sans', sans serif;
 	border: 0;
 	text-align: left;
 	vertical-align: middle;
@@ -632,7 +625,7 @@ section#motto .align {
 	height: 3.25em;
 }
 #theme-form input[type=submit] {
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 	color: #fff;
 	width: 185px;
 	height: 60px;
@@ -674,7 +667,7 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-	font-family: &#39;Open Sans&#39;, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -690,7 +683,7 @@ hr.featurette-divider {
 	margin: 3em 0;
 	border-width: 0;
 	height: 9px;
-	background: /*url(&quot;../img/dot-row-3-lt.png&quot;)*/ repeat-x;
+	background: /*url("../img/dot-row-3-lt.png")*/ repeat-x;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 06 Footer ------------------------------------------------------------
@@ -736,7 +729,7 @@ footer p {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	background-color: transparent;
 	border: 0;
-	font-family: &#39;Open Sans&#39;, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	opacity: 0.4;
 	border-radius: 0;
 }
@@ -759,7 +752,7 @@ footer p {
 }
 #intro-caption {
 	margin-top:150px;
-	font-family: &#39;Open Sans&#39;, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 80px;
 	line-height: 90px;
@@ -768,7 +761,7 @@ footer p {
 	text-shadow: 2px 2px 2px #000;
 }
 #intro-caption span {
-	font-family:&#39;Open Sans&#39;, sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-size: 0.65em;
 }
 #banner.carousel .item {
@@ -781,7 +774,7 @@ footer p {
 08 Buttons ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */    
 .btn {
-	font-family: &#39;Patua One&#39;, cursive;
+	font-family: 'Patua One', cursive;
 	color: #fff;
 	width: 185px;
 	height: 20px;
@@ -829,7 +822,7 @@ footer p {
  color: #007ac3;
 }
  #intro-caption {
- font-family: &#39;Open Sans&#39;, sans-serif;
+ font-family: 'Open Sans', sans-serif;
  text-align: center;
  font-size: 60px;
  line-height: 70px;
@@ -921,10 +914,10 @@ footer p {
  #headerwrap h2 {
  font-size:1em;
 }
- #headerwrap input[type=&quot;text&quot;] {
+ #headerwrap input[type="text"] {
  width: 100%;
 }
- #headerwrap input[type=&quot;submit&quot;] {
+ #headerwrap input[type="submit"] {
  margin-top:1em;
  width: 135px;
 }
@@ -938,18 +931,18 @@ footer p {
  display: block;
  text-align:center
 }
- #motto article p {
- font-family: &#39;Open Sans&#39;, sans-serif;
- font-size: 26px; /* font-size: 26px; */
- margin-bottom: 0;
- line-height: 30px;
- color: #fff;
+ #feature article p {
+font-family: 'Patua One', cursive;
+	font-size: 40px;
+	margin-bottom: 0;
+	line-height: 1.35;
+	color: #312A1E;
 }
 }
     
     /* Smartphones (portrait and landscape) ----------- */
 	@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
- #motto-headline {
+ #feature-headline {
  background: transparent;
  text-indent: 0;
  overflow: visible;
@@ -965,11 +958,11 @@ footer p {
 }
 		
 		/* Feature */
-		#motto-badge {
+		#feature-badge {
 /*	display: none; */
 		}
 		
-		/* missions  News */
+		/* Portfolio & News */
 		
 		#news h1 {
  background: transparent;
@@ -978,15 +971,16 @@ footer p {
  background: transparent;
  padding: 0;
 }
- #missions .container {
+ #portfolio .container {
  top: 0 !important;
 }
- #motto article p {
- font-family: &#39;Open Sans&#39;, sans-serif;
- font-size: 26px; /* font-size: 26px; */
- margin-bottom: 0;
- line-height: 30px;
- color: #fff;
+ #feature article p {
+font-family: 'Patua One', cursive;
+	font-size: 40px;
+	margin-bottom: 0;
+	line-height: 1.35;
+	color: #312A1E;
+
 }
  .img-news {
  width: 100%;
@@ -996,7 +990,7 @@ footer p {
  margin-left: auto;
  display: block;
 }
- section#missions hgroup h2 {
+ section#portfolio hgroup h2 {
  margin-top: 1.5em;
 }
 	
@@ -1017,9 +1011,9 @@ footer p {
 }
 		
 
-	    /* aboutus */
+	    /* Testimonials */
 	    
-		section#aboutus { /*display: none;*/
+		section#testimonials { /*display: none;*/
 }
 	
 		/* team */
@@ -1051,22 +1045,22 @@ footer p {
 
 	/* Smartphones (landscape) ----------- */
 	@media only screen  and (min-width : 321px) {
- #motto-headline {
+ #feature-headline {
  font-size: 32px; /* 34px */
 }
 }
 	
 	/* Smartphones (portrait) ----------- */
 	@media only screen  and (max-width : 320px) {
- #motto-headline {
+ #feature-headline {
  font-size: 1.1875em; /* 19px */
 }
- #motto article p {
- font-family: &#39;Open Sans&#39;, sans-serif;
- font-size: 26px; /* font-size: 26px; */
- margin-bottom: 0;
- line-height: 30px;
- color: #fff;
+ #feature article p {
+font-family: 'Patua One', cursive;
+	font-size: 40px;
+	margin-bottom: 0;
+	line-height: 1.35;
+	color: #312A1E;
 }
 }
 	
@@ -1080,6 +1074,11 @@ footer p {
 }
 }
 	
+.cont{
+	color: #312A1E;
+	font-size: 1.5em;
+	padding-top: 60px;
+	}
 	/* iPads (landscape) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : landscape) {
 /* Styles */
